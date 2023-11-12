@@ -7,7 +7,7 @@ const button = document.querySelector('button');
 
 button.addEventListener('click', getCompletions);
 
-const OPEN_AI_KEY = ""
+const OPEN_AI_KEY = "" // colocar sua chave - faça sua conta na OpenAI e gere uma chave
 
 async function getCompletions(event) {
     event.preventDefault()
