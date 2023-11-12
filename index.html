@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+  <title>Chat GPT</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+  <div id="app" class="max-w-3xl mx-auto mt-8 w-full p-4 space-y-4">
+    <div id="chat" class="p-4 rounded space-y-4">
+      Resposta AI...
+    </div>
+
+    <form class="flex flex-col gap-6" id="form">
+      <input class="p-4 border border-gray-700 rounded w-full outline-none bg-transparent" type="text" id="question"
+        placeholder="Faça sua pergunta">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-40" type="submit">Obter
+        Resposta
+      </button>
+    </form>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
